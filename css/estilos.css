@@ -1,0 +1,281 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;
+	padding: 0;	border: 0;	font-size: 100%;font: inherit;	vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+/*COLUMNAS*/
+.col-2 {
+  -ms-flex-preferred-size: 16.667%;
+  -webkit-flex-basis: 16.667%;
+  flex-basis: 16.667%;
+  max-width: 16.667%;
+}
+
+.col-3 {
+  -ms-flex-preferred-size: 25%;
+  -webkit-flex-basis: 25%;
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  -ms-flex-preferred-size: 33.333%;
+  -webkit-flex-basis: 33.333%;
+  flex-basis: 33.333%;
+  max-width: 33.333%;
+}
+
+.col-5 {
+  -ms-flex-preferred-size: 41.667%;
+  -webkit-flex-basis: 41.667%;
+  flex-basis: 41.667%;
+  max-width: 41.667%;
+}
+
+.col-6 {
+  -ms-flex-preferred-size: 50%;
+  -webkit-flex-basis: 50%;
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  -ms-flex-preferred-size: 58.333%;
+  -webkit-flex-basis: 58.333%;
+  flex-basis: 58.333%;
+  max-width: 58.333%;
+}
+
+.col-8 {
+  -ms-flex-preferred-size: 66.667%;
+  -webkit-flex-basis: 66.667%;
+  flex-basis: 66.667%;
+  max-width: 66.667%;
+}
+
+.col-9 {
+  -ms-flex-preferred-size: 75%;
+  -webkit-flex-basis: 75%;
+  flex-basis: 75%;
+  max-width: 75%;
+}
+
+.col-10 {
+  -ms-flex-preferred-size: 83.333%;
+  -webkit-flex-basis: 83.333%;
+  flex-basis: 83.333%;
+  max-width: 83.333%;
+}
+
+.col-11 {
+  -ms-flex-preferred-size: 91.667%;
+  -webkit-flex-basis: 91.667%;
+  flex-basis: 91.667%;
+  max-width: 91.667%;
+}
+.col-12 {
+  -ms-flex-preferred-size: 100%;
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+/*ICOMOON*/
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?jx4836');
+  src:  url('fonts/icomoon.eot?jx4836#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?jx4836') format('truetype'),
+    url('../fonts/icomoon.woff?jx4836') format('woff'),
+    url('../fonts/icomoon.svg?jx4836#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu3:before {content: "\e9bf";}
+
+
+/*BODY INICIAL*/
+
+body{font-family: 'Lato', sans-serif; color: #333333;}
+.contenedorprincipal {display: flex; flex-direction: column; min-height: 100vh;}
+header {width: 100%;}
+
+a{text-decoration: none;}
+
+.encabezado, footer {background-color: #115C99;}
+.encabezado {padding: 2% 5%; text-align: right; }
+.encabezado * {display: inline-block;}
+h1 a {font-size: 48px; color: #fff;}
+.encabezado h2 {color: #F6B710; font-size: 22px; padding-right: 10px;}
+
+#botonmenu {color: #fff; font-size: 0px; padding: 8px; transform: translateY(-700px);
+ cursor: pointer; }
+
+.menu, section {width: 90%; margin: auto; font-size: 18px;}
+
+.menu {padding: 10px 0px; font-weight: 700;}
+.menu li {display: inline-block; width: 100%; text-align: center;}
+.menu li:first-child {max-width: 8.333%;}
+.menu a {color: #115C99;}
+
+
+.portada {background: url("../assets/consultorio.jpg"); flex: 1;}
+.portada section {text-align: right; padding-top: 25%;}
+.portada h2 {font-size: 44px; font-weight: 700; margin-bottom: 50px;
+  color: #115C99;}
+.portada a {font-size: 27px; background-color: #F6B710; color: #fff;
+  padding: 15px; border-radius: 20px;}
+
+#llamanos {display: none;}
+
+.nosotros {min-height: 150px; display: flex; align-items: center;}
+.nosotros h2 {font-size: 44px; font-weight: 700;}
+.nosotros p {font-weight: 100; }
+
+
+
+footer section {color: #fff; font-weight: 100; display: flex; 
+  justify-content: space-between; padding: 15px 0px; align-items: center;
+    font-weight: 100;}
+
+
+
+/*BODY TRATAMIENTOS*/
+
+.portada.secundaria{padding: 0; height: 100px; margin: 0;flex:0;}
+.portada.tratamientos {background: url("../assets/pies.jpg"); background-size: 100%; }
+
+.contenedor {flex: 1;}
+.articulos {box-shadow: 7px 7px 15px 2px rgba(0,0,0,0.20);}
+.articulos h3 {background-color: #fff; font-size: 23px; text-transform: uppercase;
+  padding: 25px 15px;}
+
+.articulos article {border-bottom: solid #808080 1px; padding: 25px 15px;}
+.articulos h4 {margin-bottom: 15px; font-size: 20px; cursor: pointer;}
+.articulos p {font-size: 17px; line-height: 25px; letter-spacing: 0.5px;}
+.leerMas {font-size: 14px; font-style: italic; color: #333333; cursor: pointer; }
+
+
+
+/*BODY CONTACTOS*/
+.portada.contactos {background: url("../assets/prescripcion.jpg"); background-size: 100%; }
+article .contenedorprincipal {flex-direction: row; min-height: 0;}
+
+
+
+.columna {width: 50%; padding-bottom: 50px;}
+.columna a {color: #333333; width: 100%; display: block;}
+.columna iframe{width: 100%; height: 100%; margin-bottom: 25px;}
+
+.columna:last-of-type {text-align: right;}
+.columna:last-of-type a {background-color: #115C99; color: #fff; display: inline;
+  padding: 12px; border-radius: 20px;}
+
+  /*RESPONSIVE DESIGN*/
+
+@media screen and (max-width: 1150px)
+{
+  .nosotros h2 {margin-right: 20px;}
+}
+
+@media screen and (max-width: 750px) 
+{
+
+  /*INICIO*/
+  header h1 {text-align: left;}
+  header h2 {display: none !important;}
+  .menu {height: 80vh; position: fixed; background-color: #fff; 
+    width: 100% !important;
+    transform: translateY(-1500px);
+    transition: 500ms, ease-in, transform;}
+  
+  .menu li {display: block; text-align: right; max-width: 100% !important;
+    font-size: 50px; font-weight: 100; padding: 25px 0px;
+    border-bottom: solid #808080 1px;}
+  .menu li a {color: #333333; padding-right: 5%;}
+
+  #botonmenu {display: inline-block; transform: translateY(0); font-size: 30px;
+    transition: 700ms ease-out transform; max-width: 15%;}
+
+  #llamanos {display: initial;}
+  #contactanos {display: none;}
+
+  section {width: 100%}
+
+  .nosotros {flex-direction: column; text-align: left; align-items: flex-start;
+      padding: 20px 0px;}
+  .nosotros h2 {font-size: 35px; margin-bottom: 15px;}
+  .nosotros p {font-size: 24px; }
+
+  .portada section, .nosotros {width: 90%;}
+
+  footer section {flex-direction: column; align-items: flex-end; 
+      text-align: right;}
+  footer p {font-weight: 100; font-size: 14px;}
+  footer .datos {display: none; padding-right: 30px;}
+  footer .datos:first-of-type {display: block;}
+
+  /*TRATAMIENTOS*/
+  
+  .articulos article {padding: 25px 50px;}
+
+  .articulos h3 {padding-left: 30px;}
+
+  /*CONTACTOS*/
+  article .contenedorprincipal {flex-direction: column;}
+
+  .columna {width: 90%;}
+  .columna:last-of-type iframe {display: none;}
+  .columna:last-of-type a {display: block; text-align: center;}
+
+
+}
+
+
+/*ANIMACIONES POR MOUSE*/
+
+/*MENU DESTKTOP*/
+.menu li:hover {box-shadow: 0px 3px 0px 0px #F6B710; transition: 200ms;}
+
+.portada a:hover {background-color: #F9C655; transition: 200ms;}
+.portada a:active {background-color: #F6B710;}
+
+/*ANIMACION MENU Y BOTON*/
+
+.menuactivo {transform: translateY(0);}
+
+/*PARRAFOS TRATAMIENTOS*/
+
+.oculto {display: none;}
+.parrafovisible {display: block !important;}
+
+.articulos article:hover {background-color: #F1F1F1; transition: 500ms}
+
