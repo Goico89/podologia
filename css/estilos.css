@@ -149,10 +149,10 @@ h1 a {font-size: 48px; color: #fff;}
 
 .portada {background: url("../assets/consultorio.jpg"); flex: 1;}
 .portada section {text-align: right; padding-top: 25%;}
-.portada h2 {font-size: 44px; font-weight: 700; margin-bottom: 50px;
-  color: #115C99;}
+.portada h2 {font-size: 44px; font-weight: 700; color: #115C99;}
 .portada a {font-size: 27px; background-color: #F6B710; color: #fff;
-  padding: 15px; border-radius: 20px;}
+  padding: 15px; border-radius: 20px; margin-top: 50px;}
+.portada p {margin-bottom: 40px; font-weight: bold; font-style: italic;}
 
 #llamanos {display: none;}
 
